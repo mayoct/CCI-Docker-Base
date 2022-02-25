@@ -6,4 +6,4 @@ jobs:
       - checkout
       # Whatever you want to do
       - run: sudo apt-get update && sudo apt-get install -y cowsay
-      - run: /usr/game/cowsay Continuous Integration Rocks!
+      - run: /usr/games/cowsay Continuous Integration Rocks!
