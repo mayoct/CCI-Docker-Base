@@ -1,7 +1,7 @@
 jobs:
   build:
     docker:
-      - image: cimg/base:2022.02
+      - image: cimg/base:current
     steps:
       - checkout
       # Whatever you want to do
